@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
+
+:root {
+
+    --bgcolor-0: #CFDBD5;
+    --bgcolor-1: #333533;
+    --bgcolor-2: #242423;
+
+    --color-light-default: #E8EDDF;
+    --color-light-title: #CFDBD5;
+    --color-dark-default: #333533;
+    --color-dark-title: #242423;
+
+    --font-default: 'Quicksand', sans-serif;
+    --font-title: 'Roboto', sans-serif;
+
+}
+
+body {
+
+    font-family: var(--font-default);
+
+}
+
+h1, h2, h3 {
+    font-family: var(--font-title);
+}
