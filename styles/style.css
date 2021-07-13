@@ -56,6 +56,16 @@ nav > section > h1 {
 
 }
 
+header {
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/open-book.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 footer {
 
     background-color: var(--bgcolor-2);
@@ -70,7 +80,7 @@ footer {
 
 }
 
-#professional-profile > section, #professional-skills-container, #linux-container, #footer-container {
+#professional-profile > section, #professional-skills-container, #linux-container, #footer-container, #header-container {
 
     display: flex;
     flex-direction: row;
@@ -81,6 +91,43 @@ footer {
     padding-top: 60px;
     padding-bottom: 60px;
     margin: auto;
+
+}
+
+#header-container {
+
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+
+}
+
+#header-container > h1 {
+
+    font-family: var(--font-title);
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 76.8px;
+    margin-bottom: 20px;
+    color: var(--color-light-title);
+
+}
+
+#header-container > p {
+
+    font-size: 18px;
+    line-height: 34.8px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    color: var(--color-light-default);
+
+}
+
+#header-container > hr {
+
+    width: 90%;
+    border: 0px;
+    border-top: solid 1px var(--color-link-hover);
 
 }
 
