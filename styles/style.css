@@ -12,6 +12,8 @@
     --color-light-title: #CFDBD5;
     --color-dark-default: #333533;
     --color-dark-title: #242423;
+    --color-link: #f5cb5c;
+    --color-link-hover: #D17A23;
 
     --font-default: 'Quicksand', sans-serif;
     --font-title: 'Roboto', sans-serif;
@@ -70,6 +72,10 @@ footer {
 
 #professional-profile > section {
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     width: 1200px;
     padding: 20px;
     padding-top: 60px;
@@ -78,17 +84,30 @@ footer {
 
 }
 
-#professional-profile > section > h1 {
+#ubirajara-neves {
+
+    order: 1;
+    flex-basis: 35%;
+    width: 370px;
+    clear: right;
+
+}
+
+#professional-profile-content {
+
+    order: 2;
+    flex-basis: 65%;
+    clear: left;
+
+}
+
+#professional-profile-content > h1 {
 
     color: var(--color-light-title);
     font-size: 30px;
     font-weight: normal;
-
-}
-
-#ubirajara-neves {
-
-    width: 370px;
+    line-height: 39px;
+    margin-bottom: 20px;
 
 }
 
@@ -120,4 +139,24 @@ footer {
 
 h1, h2, h3 {
     font-family: var(--font-title);
+}
+
+p {
+
+    font-family: var(--font-default);
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 24px;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-link);
+    transition: all 0.2s linear;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--color-link-hover);
 }
