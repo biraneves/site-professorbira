@@ -70,7 +70,7 @@ footer {
 
 }
 
-#professional-profile > section {
+#professional-profile > section, #professional-skills-container, #linux-container {
 
     display: flex;
     flex-direction: row;
@@ -84,12 +84,17 @@ footer {
 
 }
 
+#professional-skills-container {
+
+    align-items: initial;
+
+}
+
 #ubirajara-neves {
 
     order: 1;
     flex-basis: 35%;
     width: 370px;
-    clear: right;
 
 }
 
@@ -97,7 +102,6 @@ footer {
 
     order: 2;
     flex-basis: 65%;
-    clear: left;
 
 }
 
@@ -118,9 +122,25 @@ footer {
 
 }
 
-#professional-skills > h1 {
+#professional-skills-areas {
+
+    order: 1;
+    flex-basis: 50%;
+
+}
+
+#professional-skills-others {
+    order: 2;
+    flex-basis: 50%;
+}
+
+#professional-skills-areas > h1, #professional-skills-others > h1, #linux-container > h1 {
 
     color: var(--color-dark-title);
+    font-size: 30px;
+    line-height: 39px;
+    margin-bottom: 24px;
+    font-weight: normal;
 
 }
 
@@ -131,9 +151,15 @@ footer {
 
 }
 
-#linux > h1 {
+#linux-container > h1 {
 
     color: var(--color-light-title);
+
+}
+
+#linux-logo {
+
+    width: 370px;
 
 }
 
@@ -141,7 +167,7 @@ h1, h2, h3 {
     font-family: var(--font-title);
 }
 
-p {
+p, li {
 
     font-family: var(--font-default);
     font-size: 15px;
@@ -159,4 +185,16 @@ a {
 a:hover {
     text-decoration: underline;
     color: var(--color-link-hover);
+}
+
+ul {
+
+    margin-left: 20px;
+
+}
+
+li {
+
+    margin-bottom: 12px;
+
 }
