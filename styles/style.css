@@ -70,7 +70,7 @@ footer {
 
 }
 
-#professional-profile > section, #professional-skills-container, #linux-container {
+#professional-profile > section, #professional-skills-container, #linux-container, #footer-container {
 
     display: flex;
     flex-direction: row;
@@ -81,6 +81,14 @@ footer {
     padding-top: 60px;
     padding-bottom: 60px;
     margin: auto;
+
+}
+
+#footer-container {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
 
 }
 
@@ -181,6 +189,26 @@ footer {
 #linux-content > h1 {
 
     color: var(--color-light-title);
+
+}
+
+#footer-container > p {
+
+    margin-bottom: 10px;
+
+}
+
+#social-media {
+
+    display: flex;
+    align-items: center;
+
+}
+
+#social-media > img {
+
+    margin-left: 5px;
+    margin-right: 5px;
 
 }
 
