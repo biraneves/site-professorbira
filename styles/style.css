@@ -31,6 +31,59 @@ body {
 
 }
 
+nav {
+
+    background-color: var(--bgcolor-2);
+    color: var(--color-light-title);
+
+}
+
+footer {
+
+    background-color: var(--bgcolor-2);
+    color: var(--color-light-default);
+
+}
+
+#professional-profile {
+
+    background-color: var(--bgcolor-1);
+    color: var(--color-light-default);
+
+}
+
+#professional-profile > h1 {
+
+    color: var(--color-light-title);
+
+}
+
+#professional-skills {
+
+    background-color: var(--bgcolor-0);
+    color: var(--color-dark-default);
+
+}
+
+#professional-skills > h1 {
+
+    color: var(--color-dark-title);
+
+}
+
+#linux {
+
+    background-color: var(--bgcolor-1);
+    color: var(--color-light-default);
+
+}
+
+#linux > h1 {
+
+    color: var(--color-light-title);
+
+}
+
 h1, h2, h3 {
     font-family: var(--font-title);
 }
