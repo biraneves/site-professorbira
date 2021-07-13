@@ -35,6 +35,22 @@ nav {
 
     background-color: var(--bgcolor-2);
     color: var(--color-light-title);
+    border-bottom: 1px solid var(--color-light-default);
+
+}
+
+nav > section {
+
+    width: 1200px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+nav > section > h1 {
+
+    font-size: 36px;
+    font-weight: normal;
 
 }
 
@@ -52,9 +68,27 @@ footer {
 
 }
 
-#professional-profile > h1 {
+#professional-profile > section {
+
+    width: 1200px;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+
+}
+
+#professional-profile > section > h1 {
 
     color: var(--color-light-title);
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+#ubirajara-neves {
+
+    width: 370px;
 
 }
 
