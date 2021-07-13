@@ -43,7 +43,8 @@ nav {
 
 nav > section {
 
-    width: 1200px;
+    min-width: 300px;
+    max-width: 1200px;
     padding: 20px;
     margin: auto;
 
@@ -53,6 +54,16 @@ nav > section > h1 {
 
     font-size: 36px;
     font-weight: normal;
+
+}
+
+@media (max-width: 600px) {
+
+    nav > section > h1 {
+
+        font-size: 24px;
+
+    }
 
 }
 
@@ -86,11 +97,24 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    width: 1200px;
+    min-width: 300px;
+    max-width: 1200px;
     padding: 20px;
     padding-top: 60px;
     padding-bottom: 60px;
     margin: auto;
+
+}
+
+@media (max-width: 600px) {
+
+    #professional-profile > section, #professional-skills-container, #linux-container, #footer-container, #header-container {
+
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
 
 }
 
@@ -102,6 +126,16 @@ footer {
 
 }
 
+@media (max-width: 600px) {
+
+    #header-container {
+
+        height: 180px;
+
+    }
+
+}
+
 #header-container > h1 {
 
     font-family: var(--font-title);
@@ -110,6 +144,18 @@ footer {
     line-height: 76.8px;
     margin-bottom: 20px;
     color: var(--color-light-title);
+
+}
+
+@media (max-width: 600px) {
+
+    #header-container > h1 {
+
+        font-size: 32px;
+        line-height: 44px;
+        margin-bottom: 10px;
+
+    }
 
 }
 
@@ -166,6 +212,16 @@ footer {
 
 }
 
+@media (max-width: 600px) {
+
+    #ubirajara-neves, #professional-profile-content {
+
+        flex: 100%;
+
+    }
+
+}
+
 #professional-profile-content > h1 {
 
     color: var(--color-light-title);
@@ -193,6 +249,16 @@ footer {
 #professional-skills-others {
     order: 2;
     flex-basis: 50%;
+}
+
+@media (max-width: 600px) {
+
+    #professional-skills-areas, #professional-skills-others {
+
+        flex: 100%;
+
+    }
+
 }
 
 #professional-skills-areas > h1, #professional-skills-others > h1, #linux-container > h1, #linux-content > h1 {
@@ -230,6 +296,16 @@ footer {
 
     order: 2;
     flex-basis: 65%;
+
+}
+
+@media (max-width: 600px) {
+
+    #linux-logo, #linux-content {
+
+        flex: 100%;
+
+    }
 
 }
 
