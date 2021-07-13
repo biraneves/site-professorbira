@@ -84,6 +84,12 @@ footer {
 
 }
 
+#linux-container {
+
+    flex-direction: row-reverse;
+
+}
+
 #professional-skills-container {
 
     align-items: initial;
@@ -134,7 +140,7 @@ footer {
     flex-basis: 50%;
 }
 
-#professional-skills-areas > h1, #professional-skills-others > h1, #linux-container > h1 {
+#professional-skills-areas > h1, #professional-skills-others > h1, #linux-container > h1, #linux-content > h1 {
 
     color: var(--color-dark-title);
     font-size: 30px;
@@ -159,9 +165,26 @@ footer {
 
 #linux-logo {
 
+    order: 1;
+    flex-basis: 35%;
     width: 370px;
 
 }
+
+#linux-content {
+
+    order: 2;
+    flex-basis: 65%;
+
+}
+
+#linux-content > h1 {
+
+    color: var(--color-light-title);
+
+}
+
+
 
 h1, h2, h3 {
     font-family: var(--font-title);
